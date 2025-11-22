@@ -155,3 +155,6 @@ end
 
 print(CodeGenerator)
 return CodeGenerator
+
+
+--- // TS IS NOT WORKING ANYMORE, YOU GOTTA UPDATE THE 'local secret = "e4Yn8ckbCJtw2sv7qmbg"' to the newest token key!
