@@ -140,7 +140,7 @@ function CodeGenerator:GenerateReservedServerCode(placeId)
     end
 
     local content = first_bytes .. place_bytes
-    local secret = "e4Yn8ckbCJtw2sv7qmbg"
+    local secret = "M5nBv8X2zQ7wE1rT4yU9"
     local sig = hmac.new(secret, content, md5.sum)
 
     local access_bytes = sig .. content
@@ -157,4 +157,4 @@ print(CodeGenerator)
 return CodeGenerator
 
 
---- // TS IS NOT WORKING ANYMORE, YOU GOTTA UPDATE THE 'local secret = "e4Yn8ckbCJtw2sv7qmbg"' to the newest token key!
+--- // TS IS NOT WORKING ANYMORE, YOU GOTTA UPDATE THE 'local secret = "????????"' to the newest token key!
