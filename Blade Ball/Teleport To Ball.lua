@@ -52,7 +52,7 @@ local function HandleBall(ball)
 
             local Distance = (ball.Position - Workspace.CurrentCamera.Focus.Position).Magnitude
             if Distance < 10 then
-                    print ("Hacking yours account.")
+                    print ("dihling yo mama")
             end
         end)
     end
