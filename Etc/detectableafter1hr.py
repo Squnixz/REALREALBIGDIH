@@ -1,4 +1,6 @@
 """ python install ???.py, python start ???.py """
+"""ALSO, TS REQUIRES VGC INSTALLED, OTHERWISE IT WILL NOT WORK"""
+"""THIS IS NOT FULLY 'EMULATED', OR 'BYPASS' BCZ IT WILL JUST REDUCED THE VGC PERMISSONS. IN THE ENDS, YOU'LL BE BANNED"""
 import win32serviceutil
 import win32service
 import win32event
